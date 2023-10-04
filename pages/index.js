@@ -121,9 +121,9 @@ export default function Home() {
         {/* End Content */}
 
         {/* Start Cards */}
-        <div className="bg-gray-900 w-screen relative isolate px-6 pt-[10vh] lg:px-8 lg:pt-[20vh] min-h-screenpb-20">
+        <div className="bg-gray-900 w-screen relative isolate px-6 pt-[10vh] lg:px-8 lg:pt-[20vh] min-h-screen pb-20">
           <div className="grid lg:grid-cols-4 gap-x-5">
-            <div className="overflow-hiddenmt-10 sm:col-span-full lg:col-span-1 text-center w-full align-middle items-center justify-center flex">
+            <div className="mt-10 sm:col-span-full lg:col-span-1 text-center w-full align-middle items-center justify-center flex">
               <div className="hover:scale-105 transition-transform font-semibold border-solid border-4 h-[60vh] border-blue-300 pt-5 rounded-3xl w-[80%]">
                 <div className='text-xl text-white mb-4'>Catch, Trade, Grow</div>
                 <div className="my-10 text-white hover:animate-pulse hover:text-blue-400 transition-all ease-linear"><i className="text-8xl material-icons">nature_people</i></div>
@@ -131,7 +131,7 @@ export default function Home() {
                 <div className="text-gray-200 px-3 py-5 font-normal">Catch, trade, and evolve Pokémon legendaries, mythicals, and more! Dive into a world of adventure, friendship, and evolution as you embark on your Pokémon journey.</div>
               </div>
             </div>
-            <div className="mt-5 overflow-hiddenmt-10 sm:col-span-full lg:col-span-1 text-center w-full align-middle items-center justify-center flex">
+            <div className="mt-5 sm:col-span-full lg:col-span-1 text-center w-full align-middle items-center justify-center flex">
               <div className="hover:scale-105 transition-transform font-semibold border-solid border-4 h-[60vh] border-blue-300 pt-5 rounded-3xl w-[80%]">
                 <div className='text-xl text-white mb-4'>Duel and Brawl</div>
                 <div className="my-10 text-white hover:animate-pulse hover:text-blue-400 transition-all ease-linear"><i className="text-8xl material-icons">whatshot</i></div>
@@ -139,7 +139,7 @@ export default function Home() {
                 <div className="text-gray-200 px-3 py-5 font-normal">Duel trainers and conquer Gym Leaders to earn prestigious badges. Prove your skills in epic battles and become a true Pokémon Master!</div>
               </div>
             </div>
-            <div className="mt-5 overflow-hiddenmt-10 sm:col-span-full lg:col-span-1 text-center w-full align-middle items-center justify-center flex">
+            <div className="mt-5 sm:col-span-full lg:col-span-1 text-center w-full align-middle items-center justify-center flex">
               <div className="hover:scale-105 transition-transform font-semibold border-solid border-4 h-[60vh] border-blue-300 pt-5 rounded-3xl w-[80%]">
                 <div className='text-xl text-white mb-4'>Plant and Shower</div>
                 <div className="my-10 text-white hover:animate-pulse hover:text-blue-400 transition-all ease-linear"><i className="text-8xl material-icons">person_pin</i></div>
@@ -147,7 +147,7 @@ export default function Home() {
                 <div className="text-gray-200 px-3 py-5 font-normal">Cultivate berries, uncover hidden Pokémon, and gather rare treasures. It's going to be an exciting journey filled with discovery and adventure!</div>
               </div>
             </div>
-            <div className="mt-5 overflow-hiddenmt-10 sm:col-span-full lg:col-span-1 text-center w-full align-middle items-center justify-center flex">
+            <div className="mt-5 sm:col-span-full lg:col-span-1 text-center w-full align-middle items-center justify-center flex">
               <div className="hover:scale-105 transition-transform font-semibold border-solid border-4 h-[60vh] border-blue-300 pt-5 rounded-3xl w-[80%]">
                 <div className='text-xl text-white mb-4'>Community, Love, Flowers</div>
                 <div className="my-10 text-white hover:animate-pulse hover:text-blue-400 transition-all ease-linear"><i className="text-8xl material-icons">insert_emoticon</i></div>
