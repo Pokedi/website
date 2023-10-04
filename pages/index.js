@@ -21,6 +21,7 @@ export default function Home() {
                 className='mr-3'
                 width={32}
                 height={32}
+                alt="Welcome to Pokedi!"
               ></Image>
               <span className="self-center text-2xl font-extrabold whitespace-nowrap text-white">Pokédi</span>
             </a>
