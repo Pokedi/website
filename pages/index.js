@@ -16,7 +16,7 @@ export default function Home() {
         <nav className="bg-white dark:bg-gray-900 fixed w-full z-10">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="/" className="flex items-center">
-              <img src="https://wiki.pokedi.xyz/pokedi2.png" className="h-8 mr-3" />
+              <img src="/images/logo.png" className="h-8 mr-3" />
               <span className="self-center text-2xl font-extrabold whitespace-nowrap dark:text-white">Pokédi</span>
             </a>
             <button data-collapse-toggle="navbar-default" onClick={()=>{
