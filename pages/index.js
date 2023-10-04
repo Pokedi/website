@@ -10,10 +10,10 @@ export default function Home() {
 
       {Header()}
 
-      <main className="container overflow-x-hidden">
+      <main className="container overflow-x-hidden min-w-full">
 
         {/* Start Navigation */}
-        <nav className="bg-white dark:bg-gray-900 fixed w-screen z-10">
+        <nav className="bg-white dark:bg-gray-900 fixed w-full z-10">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="/" className="flex items-center">
               <img src="https://wiki.pokedi.xyz/pokedi2.png" className="h-8 mr-3" />
@@ -58,7 +58,7 @@ export default function Home() {
 
 
         {/* Start Content */}
-        <div className="bg-white dark:bg-gray-900 relative isolate px-6 pt-14 lg:px-8 lg:pt-0 h-screen w-screen max-h-screen overflow-hidden">
+        <div className="bg-white dark:bg-gray-900 relative isolate px-6 pt-14 lg:px-8 lg:pt-0 h-screen w-full max-h-screen overflow-hidden">
 
           <div
             className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -97,7 +97,7 @@ export default function Home() {
                 >
                   Invite Now!
                 </a>
-                <a href="/about" className="text-sm font-semibold leading-6 text-gray-100">
+                <a href="https://wiki.pokedi.xyz" className="text-sm font-semibold leading-6 text-gray-100">
                   Learn more <span aria-hidden="true">→</span>
                 </a>
               </div>
@@ -211,7 +211,7 @@ export default function Home() {
         {/* End Tutorial */}
       </main>
 
-      <footer className='bg-gray-800 h-[20vh] container text-center align-middle flex justify-center items-center'>
+      <footer className='bg-gray-800 h-[20vh] container text-center align-middle flex justify-center items-center min-w-full'>
         <div className='text-white'>Copyright © 2020-2023 Pokédi</div>
       </footer>
 

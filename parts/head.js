@@ -6,7 +6,7 @@ export default function Header(title = "Pokédi - Adventure Beyond!") {
     return (
         <Head>
             <title>{title}</title>
-            <link rel="icon" href="https://pokedi.xyz/favicon.ico" />
+            <link rel="icon" href="/favicon.ico" />
             <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"></meta>
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
             <link rel="stylesheet" href="/global.css" />
