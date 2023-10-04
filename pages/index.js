@@ -19,7 +19,7 @@ export default function Home() {
               <img src="/images/logo.png" className="h-8 mr-3" />
               <span className="self-center text-2xl font-extrabold whitespace-nowrap dark:text-white">Pokédi</span>
             </a>
-            <button data-collapse-toggle="navbar-default" onClick={()=>{
+            <button data-collapse-toggle="navbar-default" onClick={() => {
               document.querySelector('#navbar-default').classList.toggle("hidden")
             }} type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
               <span className="sr-only">Open main menu</span>
@@ -73,16 +73,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="mx-auto max-w-2xl py-32 sm:py-48 z-0">
-            <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-              <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-100 ring-1 ring-gray-100/10 hover:ring-gray-900/20">
-                New here? Get started by reading our {' '}
-                <a href="https://wiki.pokedi.xyz" className="font-semibold text-indigo-600">
-                  <span className="absolute inset-0" aria-hidden="true" />
-                  docs <span aria-hidden="true">&rarr;</span>
-                </a>
-              </div>
-            </div>
+          <div className="mx-auto max-w-2xl sm:py-48 z-0 py-40 mt-10">
             <div className="text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-100 sm:text-6xl">
                 Welcome to the World of Pokémon!
