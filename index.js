@@ -24,9 +24,9 @@ app.prepare().then(x => {
         return handle(req, res)
     });
 
-    nextServer.listen(3000, (err) => {
+    nextServer.listen(8000, (err) => {
         if (err) throw err
-        console.log('> Ready on http://localhost:3000')
+        console.log('> Ready on http://localhost:8000')
     });
 
 });
