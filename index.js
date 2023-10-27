@@ -1,23 +1,24 @@
 const express = require("express");
 const cors = require("cors");
+
 const next = require("next");
-const server = express();
+
 const dotenv = require('dotenv');
 dotenv.config();
-
-server.use(cors());
 
 const dev = process.env.NODE_ENV !== 'production'
 const app = next({ dev })
 const handle = app.getRequestHandler();
 
+// Routes
+const webhook = require('./routes/webhook.js')
+
 app.prepare().then(x => {
-
+    
     const nextServer = express();
-
-    nextServer.get("/hello", (req, res) => {
-        return res.json({ success: false, msg: "You got here" });
-    });
+    nextServer.use(cors());
+    
+    nextServer.use('/topgg', webhook);
 
     nextServer.get('*', (req, res) => {
         return handle(req, res)

@@ -1,17 +1,16 @@
-import { Router } from "express";
+const { Router } = require("express");
 
-import TopGG from "@top-gg/sdk";
-
+const TopGG = require('@top-gg/sdk');
 const webhook = new TopGG.Webhook(process.env.TOPGG)
 
 const app = Router();
 
 app.get("/", (req, res) => {
-    console.log(req);
+    res.json({ success: true });
 });
 
 app.post("/", webhook.listener((vote) => {
     console.log(vote);
 }))
 
-export default app;
+module.exports = app;
