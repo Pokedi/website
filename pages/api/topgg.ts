@@ -8,7 +8,8 @@ export default function handler(req: NextApiRequest, res: any, next: NextApiHand
         console.log(req.query, req.body);
         // Process a POST request
         // res.json({ success: true });
-        res.sendStatus = res.status;
+        res.status(200).end();
+        res.sendStatus = () => { };
         webhook.listener((vote) => { console.log(vote, "VOTE") })(req, res, next);
     } else {
         console.log(req.query, req.body);
