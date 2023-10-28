@@ -9,9 +9,9 @@ export default function handler(req: NextApiRequest, res: NextApiResponse, next:
         // Process a POST request
         // res.json({ success: true });
         webhook.listener((vote) => { console.log(vote, "VOTE") })(req, res, next);
-        // } else {
-        //     console.log(req.query, req.body);
-        //     // Handle any other HTTP method
-        //     res.json({ success: false });
+    } else {
+        console.log(req.query, req.body);
+        // Handle any other HTTP method
+        res.json({ success: false });
     }
 }
