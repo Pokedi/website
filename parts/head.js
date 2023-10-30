@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import 'tailwindcss/tailwind.css';
 
-export default function Header(title = "Pokédi - Adventure Beyond!") {
+export default function Header(title = "Pokédi - Adventure Beyond!", extra) {
     return (
         <Head>
             <title>{title}</title>
@@ -39,6 +39,8 @@ export default function Header(title = "Pokédi - Adventure Beyond!") {
             <meta name="twitter:title" content="Pokedi | A fun Pokemon bot" />
 
             <meta property="og:image:alt" content="Pokedi Official" />
+
+            {extra}
         </Head>
     );
 }
