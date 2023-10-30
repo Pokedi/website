@@ -14,7 +14,7 @@ export default function Invite() {
                 <link rel="stylesheet" href="/global.css" /><meta http-equiv="refresh" content="1; https://discordapp.com/oauth2/authorize?client_id=716293342740348948&scope=bot&permissions=379968" />
             </Head>
 
-            <main className='bg-[#1a1c1d] h-screen'>
+            <main className='bg-[#1a1c1d] h-screen w-screen'>
                 <center>
                     <Image src={"/images/pokeball.gif"} width={800} height={600} alt='loader'
                         className={"centered"} />
