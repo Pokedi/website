@@ -11,7 +11,7 @@ export default function Vote() {
             {Header("Bot Vote | Pokedi")}
 
             <Head>
-                <link rel="stylesheet" href="/global.css" /><meta http-equiv="refresh" content="3; https://top.gg/bot/716293342740348948/vote" />
+                <link rel="stylesheet" href="/global.css" /><meta http-equiv="refresh" content="0; https://top.gg/bot/716293342740348948/vote" />
             </Head>
 
             <main className='bg-[#1a1c1d] h-screen'>
