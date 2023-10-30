@@ -11,7 +11,7 @@ export default function Invite() {
             {Header("Bot Invite | Pokedi")}
 
             <Head>
-                <link rel="stylesheet" href="/global.css" /><meta http-equiv="refresh" content="6; https://discordapp.com/oauth2/authorize?client_id=716293342740348948&scope=bot&permissions=379968" />
+                <link rel="stylesheet" href="/global.css" /><meta http-equiv="refresh" content="3; https://discordapp.com/oauth2/authorize?client_id=716293342740348948&scope=bot&permissions=379968" />
             </Head>
 
             <main className='bg-[#1a1c1d] h-screen'>
