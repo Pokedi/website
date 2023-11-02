@@ -10,6 +10,8 @@ export default function Home() {
         <link rel="icon" href="https://pokedi.xyz/favicon.ico" />
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"></meta>
         <link rel="stylesheet" href="/global.css" />
+        <link rel="canonical" href="/about" />
+
       </Head>
 
       <main className="container">

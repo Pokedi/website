@@ -13,6 +13,7 @@ export default function Vote() {
             <Head>
                 <link rel="stylesheet" href="/global.css" />
                 <meta http-equiv="refresh" content="1; https://top.gg/bot/716293342740348948/vote" />
+                <link rel="canonical" href="/vote" />
             </Head>
 
             <main className='bg-[#1a1c1d] h-screen w-screen'>
