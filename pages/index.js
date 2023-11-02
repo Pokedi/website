@@ -1,6 +1,7 @@
 // import Head from 'next/head';
 import Image from 'next/image.js';
 import Header from '../parts/head.js';
+import Head from 'next/head.js';
 import styles from '../styles/Home.module.css';
 import 'tailwindcss/tailwind.css';
 
