@@ -12,7 +12,7 @@ export default function Home() {
       {Header()}
 
       <Head>
-        <link rel="canonical" href="/" />
+        <link rel="canonical" href="https://pokedi.xyz" />
       </Head>
 
       <main className="container overflow-x-hidden min-w-full">

@@ -12,7 +12,7 @@ export default function Invite() {
 
             <Head>
                 <link rel="stylesheet" href="/global.css" /><meta http-equiv="refresh" content="1; https://discordapp.com/oauth2/authorize?client_id=716293342740348948&scope=bot&permissions=379968" />
-                <link rel="canonical" href="/invite" />
+                <link rel="canonical" href="https://pokedi.xyz/invite" />
             </Head>
 
             <main className='bg-[#1a1c1d] h-screen w-screen'>
