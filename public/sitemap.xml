@@ -2,20 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pokedi.xyz</loc>
-    <lastmod>2023-11-02T14:03:58.071Z</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>1</priority>
+    <lastmod>2023-11-10T14:03:58.071Z</lastmod>
   </url>
   <url>
     <loc>https://pokedi.xyz/vote</loc>
-    <lastmod>2023-11-02T14:03:58.071Z</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>1</priority>
+    <lastmod>2023-11-10T14:03:58.071Z</lastmod>
   </url>
   <url>
     <loc>https://pokedi.xyz/invite</loc>
-    <lastmod>2023-11-02T14:03:58.071Z</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>1</priority>
+    <lastmod>2023-11-10T14:03:58.071Z</lastmod>
   </url>
 </urlset>
