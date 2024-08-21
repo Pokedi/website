@@ -39,7 +39,7 @@ export default function Privacy() {
                     <p>We do not provide any collected data to third parties for reasons beyond maintaining the proper operation of the Services.
                         Our Services may link to external sites not operated by us. We do not have any control over the policies of these sites.</p>
                     <h2 className="text-xl font-bold mt-6">3. Contacting Us</h2>
-                    <p>If you have any questions about this Privacy Policy, please contact us in our Discord support server <a href="https://discord.gg/BUnZdjY">https://discord.gg/BUnZdjY</a>.</p>
+                    <p>If you have any questions about this Privacy Policy, please contact us in our Discord support server <Link className="text-blue-400 underline" href="https://discord.gg/BUnZdjY">https://discord.gg/BUnZdjY</Link>.</p>
 
                 </section>
 
