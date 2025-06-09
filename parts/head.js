@@ -7,8 +7,6 @@ export default function Header(title = "Pokédi - Adventure Beyond!", extra) {
             <link rel="icon" href="/favicon.ico" />
             <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"></meta>
             
-            <link rel="stylesheet" href="/global.css" />
-
             <meta content="Pokedi Official" property="og:title" />
             <meta content="Pokedi Official" property="title" />
             <meta property="og:site_name" value="Pokedi Official" />
