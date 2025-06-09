@@ -1,7 +1,4 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
-import 'tailwindcss/tailwind.css';
-import Script from 'next/script';
 
 export default function Header(title = "Pokédi - Adventure Beyond!", extra) {
     return (

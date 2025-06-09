@@ -2,8 +2,6 @@
 import Image from 'next/image.js';
 import Header from '../parts/head.js';
 import Head from 'next/head.js';
-import styles from '../styles/Home.module.css';
-import 'tailwindcss/tailwind.css';
 import Navigation from '../parts/navigation.js';
 import Footer from '../parts/footer.js';
 

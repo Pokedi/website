@@ -1,5 +1,4 @@
 import '../styles/Vote.module.css';
-import 'tailwindcss/tailwind.css';
 import Image from 'next/image';
 import Header from '../parts/head';
 import Head from 'next/head';
